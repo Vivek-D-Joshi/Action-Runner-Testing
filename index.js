@@ -8,5 +8,5 @@ app.listen(process.env.PORT, () => {
 });
 
 app.get("/", (req, res) => {
-  res.status(200).json("Hello from server...");
+  res.status(200).json("Hello from server....");
 });
